@@ -38,3 +38,17 @@ app.post('/compose', function (req, res) {
     res.redirect('/');
 
 });
+
+//About Route
+
+app.get('/about', function (req, res) {
+    res.render('about', {});
+});
+
+
+//Contact Route
+
+app.get('/contact', function (req, res) {
+    res.render('contact', {});
+});
+
