@@ -1,0 +1,16 @@
+<%- include('header') -%>
+
+    <div style="height: 1rem;"></div>
+
+      <!-- -->
+    <% for(let i=0;i<postList.length;i++){ %>
+
+      <div class="container-fluid blog-post">
+        <h3><%= postList[i].title %></h3>
+        <p><%= postList[i].post %></p>
+      </div>
+
+    <% } %>
+    <!-- -->
+    
+<%- include('footer') -%>

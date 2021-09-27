@@ -1,0 +1,18 @@
+<%- include('header') -%>
+
+<div class="compose-form">
+  <h1>Compose</h1>
+  <form action="/compose" method="POST">
+    <strong><label for="title-input">Title</label></strong>
+    <br />
+    <input class="title-input" type="text" name="compose_title" />
+    <br />
+    <strong><label for="post-input">Post</label></strong>
+    <br />
+    <input class="post-input" type="text" name="compose_post" />
+    <br />
+    <input class="button-input" type="submit" value="Publish" />
+  </form>
+</div>
+
+<%- include('footer') -%>

@@ -1,0 +1,47 @@
+/* custom classes */
+.a-tags-div {
+  position: absolute;
+  right: 10rem;
+}
+
+.compose-form {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.button-input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 255, 0.658);
+  color: white;
+  border-radius: 5px;
+}
+
+.title-input,
+.post-input {
+  width: 100%;
+}
+
+.post-input {
+  height: 10rem;
+}
+
+.blog-post {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 1rem;
+}
+
+/* bs classes */
+.navbar {
+  padding: 2rem;
+  padding-left: 10rem;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
