@@ -12,7 +12,7 @@
 }
 
 .blog-post {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .button-input {
@@ -31,6 +31,8 @@
 .post-input {
   height: 10rem;
 }
+
+
 
 /* bs classes */
 .navbar {
