@@ -4,11 +4,15 @@
   right: 10rem;
 }
 
-.compose-form {
+.header-less-body {
   padding-left: 10rem;
   padding-right: 10rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.blog-post {
+  padding-bottom: 1rem;
 }
 
 .button-input {
@@ -26,12 +30,6 @@
 
 .post-input {
   height: 10rem;
-}
-
-.blog-post {
-  padding-left: 10rem;
-  padding-right: 10rem;
-  padding-bottom: 1rem;
 }
 
 /* bs classes */
