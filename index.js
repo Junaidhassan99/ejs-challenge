@@ -25,10 +25,8 @@ app.listen(port, () => console.log(`Example app listening on port port!`));
 
 app.get('/', function (req, res) {
 
-    let readPostList = [];
-
-    readPostList = Posts.find({}, function (error, data) {
-        //console.log(data);
+    Posts.find({}, function (error, data) {
+        let readPostList = [];
         readPostList = data;
         res.render('home', { postList: readPostList });
     });
@@ -64,5 +62,15 @@ app.get('/about', function (req, res) {
 
 app.get('/contact', function (req, res) {
     res.render('contact', {});
+});
+
+//Custom Parameter Route
+
+app.get('/post/:postId', function (req, res) {
+    console.log(req.params.postId);
+
+    Posts.find({ _id: req.params.postId }, function (error, data) {
+        res.render('post', { data: data[0] });
+    });
 });
 
